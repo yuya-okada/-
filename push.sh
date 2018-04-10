@@ -3,5 +3,5 @@ for file in `\find . -maxdepth 1 -type f`; do
 done
 
 git add .
-git commit -m
+git commit -m $RANDOM
 git push origin master -u
